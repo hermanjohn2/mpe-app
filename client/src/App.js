@@ -1,13 +1,17 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Navigation from './components/Navigation';
+import Home from './pages/Home';
+import Orders from './pages/Orders';
+import AboutUs from './pages/AboutUs';
 
 const App = () => {
 	return (
-		<div>
-			<Navigation />
-			<h1>MPE</h1>
-		</div>
+		<Router>
+			<Route exact path={['/', '/home']} component={Home} />
+			<Route exact path="/orders" component={Orders} />
+			<Route exact path="/about-us" component={AboutUs} />
+		</Router>
 	);
 };
 
