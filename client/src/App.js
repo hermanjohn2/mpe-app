@@ -1,8 +1,11 @@
 import React from 'react';
 
+import Navigation from './components/Navigation';
+
 const App = () => {
 	return (
 		<div>
+			<Navigation />
 			<h1>MPE</h1>
 		</div>
 	);
