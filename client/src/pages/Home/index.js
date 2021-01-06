@@ -1,43 +1,26 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 import Navigation from '../../components/Navigation';
+import MainCarousel from '../../components/MainCarousel';
+import HomeCard from '../../components/HomeCard';
 
-const carouselImages = [
-	{
-		id: 1,
-		src: '/images/dark-knife.jpeg'
-	},
-	{
-		id: 2,
-		src: '/images/scissor.jpeg'
-	},
-	{
-		id: 3,
-		src: '/images/knife-silver.jpeg'
-	},
-	{
-		id: 4,
-		src: '/images/scissor2.jpeg'
-	},
-	{
-		id: 5,
-		src: '/images/scissor3.jpeg'
-	}
-];
+import cardData from '../../utils/card-data';
 
 const Home = () => {
 	return (
 		<div>
 			<Navigation />
-
-			<Carousel>
-				{carouselImages.map(image => (
-					<Carousel.Item key={image.id} className="px-1">
-						<img className="d-block w-100" src={image.src} alt="Sharpened tools" />
-					</Carousel.Item>
-				))}
-			</Carousel>
+			<MainCarousel />
+			<Container>
+				<Row>
+					{cardData.map(data => (
+						<HomeCard key={data.id} cardData={data} />
+					))}
+				</Row>
+			</Container>
 		</div>
 	);
 };
