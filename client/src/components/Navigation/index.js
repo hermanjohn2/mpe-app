@@ -18,7 +18,7 @@ const Navigation = () => {
 						<Nav.Link
 							href="https://www.instagram.com/mariettaprecisionedge/?hl=en"
 							target="_blank">
-							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i className="fa fa-instagram" aria-hidden="true"></i>
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

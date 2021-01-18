@@ -1,0 +1,14 @@
+.home-card {
+	background-color: #1f1f1f;
+	opacity: 1;
+	height: 350px;
+}
+
+.home-card-text {
+	opacity: 1;
+	color: white;
+}
+
+.home-card-img {
+	height: 200px;
+}

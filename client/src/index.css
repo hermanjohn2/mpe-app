@@ -1,1 +1,8 @@
-
+body {
+	background-image: url('/images/blue-mountain-bg.jpg');
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Texturina', serif;
+}

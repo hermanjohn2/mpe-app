@@ -8,7 +8,7 @@ import './style.css';
 const Jumbo = () => {
 	return (
 		<Jumbotron className="home-jumbo">
-			<Image className="jumbo-img" src="/images/trans-logo.png" />
+			<Image className="jumbo-img" src="/images/trans-logo.png" alt="Marietta Precision Edge Logo" />
 		</Jumbotron>
 	);
 };

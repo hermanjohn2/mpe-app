@@ -1,6 +1,6 @@
 .home-jumbo {
-	background-image: url('/images/paper-bg.jpg');
-	height: 200px;
+	height: 175px;
+	background-color: transparent;
 }
 
 .jumbo-img {

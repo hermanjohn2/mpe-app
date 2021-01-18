@@ -1,23 +1,21 @@
 export default [
 	{
 		id: 1,
-		title: 'Lorem Ipsum',
-		image: '#',
+		title: 'Personal Service',
+		image: '/images/knife-silver.jpeg',
 		body:
-			'Nam vel tempor orci. Mauris condimentum nisi id fringilla eleifend. Proin mauris lacus, egestas ac justo in, laoreet maximus risus.'
+			'From pocket knives to kitchen knife sets. We will provide exceptional service to orders small and large.'
 	},
 	{
 		id: 2,
-		title: 'Cras Leo',
-		image: '#',
-		body:
-			'Nullam lobortis vel justo eu iaculis. Donec placerat luctus augue sit amet dictum. Maecenas vel tempus odio. Quisque eleifend, urna.'
+		title: 'Professional Edge',
+		image: '/images/scissor3.jpeg',
+		body: 'We proudly provide an edge to industry professionals. Let us help you work smarter.'
 	},
 	{
 		id: 3,
-		title: 'Nulla Eget',
-		image: '#',
-		body:
-			'Suspendisse potenti. Aliquam erat volutpat. Quisque fringilla posuere sagittis. Cras lectus felis, pellentesque sed mi vel, pretium sodales erat. Morbi.'
+		title: 'Quality Assured',
+		image: '/videos/hair-split.mp4',
+		body: 'Our results are unmatched.  We fully guarantee 100% satisfaction.'
 	}
 ];

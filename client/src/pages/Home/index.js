@@ -9,6 +9,8 @@ import HomeCard from '../../components/HomeCard';
 
 import cardData from '../../utils/card-data';
 
+import './style.css';
+
 const Home = () => {
 	return (
 		<div>
