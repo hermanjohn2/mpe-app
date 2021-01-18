@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Navigation from '../../components/Navigation';
-import MainCarousel from '../../components/MainCarousel';
+import Jumbo from '../../components/Jumbo';
 import HomeCard from '../../components/HomeCard';
 
 import cardData from '../../utils/card-data';
@@ -13,7 +13,11 @@ const Home = () => {
 	return (
 		<div>
 			<Navigation />
-			<MainCarousel />
+
+			<Jumbo />
+
+			{/* <MainCarousel /> */}
+
 			<Container>
 				<Row>
 					{cardData.map(data => (
