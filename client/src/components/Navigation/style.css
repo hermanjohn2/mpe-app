@@ -1,0 +1,25 @@
+#nav-logo {
+	height: 75px;
+}
+
+.trans-bg {
+	background-color: transparent;
+}
+
+.nav-bg {
+	background-color: #b33d3d;
+	opacity: 0.9;
+}
+
+.mpe-nav-link {
+	font-size: 20px;
+	margin: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: contents;
+}

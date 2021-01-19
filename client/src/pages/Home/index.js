@@ -1,13 +1,6 @@
 import React from 'react';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-
 import Navigation from '../../components/Navigation';
-import Jumbo from '../../components/Jumbo';
-import HomeCard from '../../components/HomeCard';
-
-import cardData from '../../utils/card-data';
 
 import './style.css';
 
@@ -16,17 +9,20 @@ const Home = () => {
 		<div>
 			<Navigation />
 
-			<Jumbo />
-
-			{/* <MainCarousel /> */}
-
-			<Container>
-				<Row>
-					{cardData.map(data => (
-						<HomeCard key={data.id} cardData={data} />
-					))}
-				</Row>
-			</Container>
+			<h1 className="text-center">Your personal edge sharpener.</h1>
+			<h2 className="text-center">
+				<span className="modal-trigger" value="1">
+					Small Business
+				</span>{' '}
+				|{' '}
+				<span className="modal-trigger" value="1">
+					Professional Service
+				</span>{' '}
+				|{' '}
+				<span className="modal-trigger" value="1">
+					Expert Results
+				</span>
+			</h2>
 		</div>
 	);
 };
