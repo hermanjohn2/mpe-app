@@ -1,7 +1,7 @@
 .home-card {
-	background-color: #1f1f1f;
+	background-color: transparent;
 	opacity: 1;
-	height: 350px;
+	height: 500px;
 }
 
 .home-card-text {
@@ -10,5 +10,5 @@
 }
 
 .home-card-img {
-	height: 200px;
+	width: 500px;
 }
